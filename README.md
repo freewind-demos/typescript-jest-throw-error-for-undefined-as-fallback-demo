@@ -9,6 +9,14 @@ Not sure why this is not working:
 expect(() => foo()).toThrowError(expect.stringContaining('(foo)'))
 ```
 
+Update:
+
+Just pass the text, the default behavior is "containing"
+
+```
+expect(() => foo()).toThrowError('(foo)')
+```
+
 ```
 npm install
 npm test
