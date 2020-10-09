@@ -1,7 +1,7 @@
-TypeScript Jest Demo
+TypeScript Jest Expect Throw Error Containing Text Demo
 ===========================
 
-使用typescript就需要在`jest.config.js`中使用`ts-jest`作为`preset`
+在jest中测一个函数抛出error时，如何验证它包含某一个特定的字符串？
 
 ```
 npm install
